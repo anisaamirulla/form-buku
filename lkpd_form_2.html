@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Buku</title>
+</head>
+<body>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th colspan="2">FORM INPUT BUKU</th>
+        </tr>
+
+        <tr>
+            <td>Kode Buku</td>
+            <td>
+                <input type="text" name="kode_buku">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Judul Buku</td>
+            <td>
+                <input type="text" name="judul_buku">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Pengarang</td>
+            <td>
+                <input type="text" name="pengarang">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Penerbit</td>
+            <td>
+                <input type="text" name="penerbit">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Tahun Terbit</td>
+            <td>
+                <input type="text" name="tahun_terbit">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Kategori</td>
+            <td>
+                <select name="kategori">
+                    <option>-- Pilih Kategori --</option>
+                    <option>Novel</option>
+                    <option>Pendidikan</option>
+                    <option>Teknologi</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Kondisi Buku</td>
+            <td>
+                <input type="radio" name="kondisi" value="baru"> Baru
+                <input type="radio" name="kondisi" value="bekas"> Bekas
+            </td>
+        </tr>
+
+        <tr>
+            <td>Jumlah Buku</td>
+            <td>
+                <input type="number" name="jumlah_buku">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Deskripsi</td>
+            <td>
+                <textarea name="deskripsi" rows="5" cols="30"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Simpan">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
